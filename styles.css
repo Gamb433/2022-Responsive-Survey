@@ -1,0 +1,84 @@
+body {
+    background-color: #181A1B;
+    color: #E0DEDA;
+    font-family: sans-serif;
+    font-size: 18px;
+  }
+  
+  h1, p{
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  main {
+    margin:auto;
+    width:60%;
+    min-width:300px;
+    max-width: 600px;
+  }
+  
+  section {
+    background-color: #171725;
+    width:100%;
+    height:850px;
+    padding: 30px;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  label, input {
+    display: block;
+    width:100%;
+    
+  }
+  
+  input {
+    background-color: #181A1B;
+    color: #ffffff;
+    border: 1px solid #3C4144;
+    border-radius: 3px;
+    padding: 8px;
+  }
+  
+  label {
+    margin-bottom: 1em;
+  }
+  
+  input[type="submit"] {
+    background-color: #2C8C51;
+    margin: 1em 0 0 0.8em;
+    width: 96%;
+   
+    height: 2em;
+    font-size: 1.1rem;
+  }
+  
+  select {
+    display: block;
+    width: 100%;
+    height:2.5em;
+    min-height: 2em;
+    border: 1px solid #3C4144;
+    border-radius: 3px;
+    background-color: #181A1B;
+    color: #757575;
+  }
+  
+  .inline {
+    width: unset;
+    display:inline-block;
+  }
+  
+  .recommend {
+    text-align: left;
+    margin: 1em 0 0 0.6em;
+  }
+  
+  textarea {
+    background-color: #181A1B;
+    color: #ffffff;
+    display:block;
+    width:100%;
+  }
